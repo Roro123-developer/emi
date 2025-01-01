@@ -1,0 +1,37 @@
+
+.corazon{
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 15px;
+    position: relative;
+    left: -25px;
+    transition: transform 0.5s ease-in-out;
+    animation: latido 2s infinite;
+}
+@keyframes latido {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+.c-item{
+    height: 100vh;
+}
+.c-item h5{
+    font-weight: bold;
+    font-size: 30px;
+}
+.c-item p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.c-img{
+    object-fit: cover;
+    height: 100%;
+    filter: brightness(50%);
+}
